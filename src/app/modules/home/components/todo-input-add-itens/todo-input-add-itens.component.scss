@@ -1,25 +1,42 @@
 @import '../../../../../dist/scss/variables.scss';
 
-:host {
+.input {
     display: flex;
-    justify-content: center;
-    margin-top: -20px;
+    justify-content: space-between;
+    margin-top: 10px;
+    
 
     input{
-        width: 80%;
 
         border: none;
-        background: $tertiary-background-color;
+        background: white;
 
+        font-size: 16px;
+        color: black;
+        text-align: center;
+
+        padding: 5px;
+        box-sizing: border-box;
+
+        &::placeholder{
+            color: black;
+        }
+    }
+
+    button{
+    
+        border: none;
+    
+        width: 40%;
+        padding: 10px;
+    
+        background: $add-color;
+        
         font-size: 16px;
         color: $secondary-text-color;
         text-align: center;
 
-        padding: 10px;
-        box-sizing: border-box;
-
-        &::placeholder{
-            color: $secondary-text-color;
-        }
+        border-radius: 50px;
     }
 }
+

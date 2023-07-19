@@ -20,7 +20,7 @@ import { HomeComponent } from './pages/home/home.component';
     TodoButtonDeleteAllComponent,
     TodoInputAddItensComponent,
     TodoListComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     CommonModule,
